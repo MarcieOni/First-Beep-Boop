@@ -1,0 +1,30 @@
+:root {
+  --heartshift: 5px;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  text-decoration: underline overline;
+  text-shadow: 4px 4px 35px #ff00ff;
+  
+  text-underline-offset: 27px;
+}
+
+img {
+  width: 75px;
+  transform: translateY(var(--heartshift));
+  animation: emilyspulse 1.2s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes emilyspulse {
+  from {
+    transform: scale(1) translateY(var(--heartshift));
+  }
+  to {
+    transform: scale(1.45) translateY(var(--heartshift));
+  }
+}
