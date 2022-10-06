@@ -34,10 +34,19 @@ h6 {
   text-shadow: 2px 2px 2px #0c2ef0;
 }
 
-img {
+h1 img {
   width: 75px;
   transform: translateY(var(--heartshift));
   animation: emilyspulse 1.2s ease-in-out infinite alternate-reverse;
+}
+
+a img {
+  transition: 3s ease-in-out all;
+  width: 100px; 
+}
+
+a img:hover {
+  transform: rotate(720deg);
 }
 
 @keyframes emilyspulse {
