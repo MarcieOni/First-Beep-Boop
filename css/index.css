@@ -45,9 +45,9 @@ a img {
   width: 100px; 
 }
 
-a img:hover {
+/*a img:hover {
   transform: rotate(720deg);
-}
+}*/
 
 @keyframes emilyspulse {
   from {
