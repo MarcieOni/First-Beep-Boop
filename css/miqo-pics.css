@@ -1,0 +1,62 @@
+img {
+  width: 100%;
+}
+
+ul, ol{
+  text-align: left;
+}
+
+.list-colors {
+  color: #0c2ef0;
+}
+
+#meow {
+  text-align: left;
+  color:#0c2ef0
+}
+
+a:visited{
+  color: deeppink;
+}
+
+.m-pics {
+  float: left;
+  width: 30%;
+}
+
+.whm {
+  width: 52%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

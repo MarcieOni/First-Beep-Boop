@@ -21,6 +21,47 @@ body {
   background-repeat: no-repeat;
 }
 
+ul, ol{
+  text-align: left;
+}
+
+.dan {
+  font-size: 20px;
+  font-weight: bold;
+  color:blueviolet ;
+}
+
+.menu {
+  font-weight: 600;
+  color: #0c2ef0;
+  background-color:rgba(255, 20, 145, 0.308);
+  width: 155px;
+  float: left;
+}
+
+.menu a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+#meow {
+  text-align: left;
+  color:#0c2ef0
+}
+
+a:visited{
+  color: deeppink;
+}
+
+
+
+
+
+.red {
+  color: red;
+}
+
+
 h1 {
   font-size: 72px;
   text-decoration: underline overline;
